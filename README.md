@@ -1,0 +1,1 @@
+# qrfy-sdk-dotnet
