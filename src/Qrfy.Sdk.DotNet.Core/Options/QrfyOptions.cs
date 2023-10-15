@@ -20,10 +20,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+using System.ComponentModel.DataAnnotations;
+
 namespace Qrfy.Sdk.DotNet.Core.Options;
 
-public sealed record QrfyOptions
+public sealed class QrfyOptions
 {
-    public required string ApiKey { get; set; }
+    [Required] public required string ApiKey { get; set; }
     public bool IsDebugMode { get; set; }
 }

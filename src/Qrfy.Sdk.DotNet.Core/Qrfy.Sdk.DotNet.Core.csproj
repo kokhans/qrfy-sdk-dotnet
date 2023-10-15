@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 <PropertyGroup>
-    <Description>Qrfy.Sdk.DotNet provides easily generate, manage and statistically track QR codes using QRfy service.</Description>
+    <Description>QRfy .NET SDK provides easily generate, manage and statistically track QR codes using QRfy service.</Description>
     <PackageTags>qrfy, qr</PackageTags>
   </PropertyGroup>
 
