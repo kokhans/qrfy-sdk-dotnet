@@ -37,7 +37,7 @@ To configure the QRfy .NET SDK you'll need to add a section named `Qrfy` to your
 ```
 
 - `ApiKey` - API key required for authentication with the QRfy service. Replace "YOUR_API_KEY_HERE" with your actual API key.
-- `IsDebugMode` - Flag that indicates whether the SDK should operate in debug mode. You can set it to true or false as needed. When IsDebugMode is enabled, the QrfyConsoleLoggingDelegatingHandler will log HTTP request and response messages to the console, you can provide the following description:
+- `IsDebugMode` - Flag that indicates whether the SDK should operate in debug mode. You can set it to true or false as needed. When `IsDebugMode` is enabled, the `QrfyConsoleLoggingDelegatingHandler` will log HTTP request and response messages to the console.
 
 ## Registration
 
